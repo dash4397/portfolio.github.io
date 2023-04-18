@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+</head>
+<body>
+    <input type="number" placeholder="input your math score" id="math"><br>
+    <input type="number" placeholder="input your Eng score" id="eng"><br>
+    <input type="number" placeholder="input your Phy score" id="phy"><br>
+    <input type="number" placeholder="input your Chem score" id="chem"><br>
+    <button onclick="score()" >Score</button> <br>
+    <input type="number" placeholder="yourscore" id="ss">
+    <script>
+        function score(){
+        var math = document.getElementById("math").value;
+        var eng = document.getElementById("eng").value;
+        var phy = document.getElementById("phy").value;
+        var chem = document.getElementById("chem").value;
+        var tota = math + eng + phy + chem 
+        document.getElementById("ss").innerHTML = tota;
+        
+        }
+    </script>
+</body>
+</html>

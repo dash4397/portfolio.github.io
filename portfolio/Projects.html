@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
+  /* grid-template-columns:repeat(auto auto auto); */
+}
+p{
+    text-align: center;
+    color: RED;
+    text-decoration: underline;
+    
+}
+.grid1:hover,.grid2:hover,.grid3:hover,.grid4:hover{
+    background-color: rgb(61, 35, 35);
+    height:40vh;
+    background-image: none;
+}
+.grid1,.grid2,.grid3,.grid4{
+    background-image: url(./calculator/Screenshot\ \(67\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    color: rgb(21, 13, 7);
+    text-align: center;
+    text-decoration:dotted;
+    border-radius:10% ;
+    border-style: dashed;
+    border-color: brown;
+}
+.grid2{
+    background-image: url(./calculator/Screenshot\ \(55\).png);
+}
+.grid3{
+    background-image: url(./LoveCal/LoveSS.png);
+}
+.grid4{
+    background-image: url(./stopwatch/Screenshot\ \(68\).png);
+}
+
+
+    </style>
+</head>
+<body>
+    <a href="Home.html">Back</a>
+    <p>Projects</p>
+    <div class="grid-container">
+
+        <div class="grid1"> <a href="calculator/Calculator.html">Simple Calculator</a>
+        </div>
+        <div class="grid2"> <a href="calculator/sccal.html"> Scientific Calculator</a></div>
+        <div class="grid3"><a href="LoveCal/LoveCal.html">Love Calculator</a></div>
+        <div class="grid4"><a href="stopwatch/stopwatch.html">Stop Watch</a></div>
+      </div>
+      <button value="Go back!" onclick="history.back()">NNNN</button>
+</body>
+</html>

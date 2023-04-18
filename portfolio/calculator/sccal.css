@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style:normal;
+    background-color:black
+}
+body{
+    background-color:black;
+}
+       
+       input{
+        grid-column: span 4 ;
+        border: none;
+    background-color: rgba(68, 58, 58, 0.336);
+        color: white;
+        text-align: end;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: italic;
+        border-top: 10rem;
+        border: none;
+       }
+       button{
+            background-color:rgba(68, 58, 58, 0.336);
+            /* color: rgb(210, 210, 239); */
+            border-radius: 100rem;
+            color: white;
+            border-width: 1px;
+            box-shadow:0.5px 0.5px 0.5px 0.5px blur black;
+            
+        
+        border: none;
+height: 8vh;
+        }
+        body{
+            /* background-color: rgba(68, 58, 58, 0.336); */
+            padding-top: 60px;
+        }
+        button{
+        
+            }
+        #ac,#del{
+grid-column: span 2;
+        }
+            .calculator_keys{
+                display: grid;
+               
+                grid-template-columns: repeat(4,1fr);
+            width: 200px;
+            /* height: 50vh; */
+            /* background-color:rgba(68, 58, 58, 0.336); */
+        
+        
+        }
+        div{
+            border-radius: 8px;
+            background-color:rgba(68, 58, 58, 0.336);
+border: 1px solid rgb(59, 43, 43);
+            height: 80vh;
+            background-color: rgba(68, 58, 58, 0.336)
+        }
+        sup{ background-color:rgba(68, 58, 58, 0.336);
+            /* border: 1px solid rgb(59, 43, 43); */
+
+        }
+        /* button:hover{
+            background-color: rgb(94, 85, 11);
+           
+        } */
+                
+                

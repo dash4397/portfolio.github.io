@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: blueviolet;
+
+}
+.{
+    box-sizing: border-box;
+margin: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.watch{
+    text-align: center;
+    background-color: rgb(27, 15, 15);
+    max-width: 400px;
+    margin: 4rem auto;
+    border-radius:2rem;
+    padding: 1rem 2rem;
+}
+.time{
+    font-size: 7rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    appearance: none;
+    background: none;
+    outline: none;
+    user-select: none;
+    color: crimson;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    transition: 1s;
+    font-size: 1rem;
+}
+button:hover{
+    opacity: 2;
+}
+button:active{
+    background-color: aquamarine;
+}

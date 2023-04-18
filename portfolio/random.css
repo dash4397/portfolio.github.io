@@ -1,0 +1,26 @@
+body{
+    /* border: 10px solid red; */
+    text-align:center;
+    height: 60vh;
+    /* width: 30%; */
+    background-image: url(./love-meter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+
+
+}
+input{
+border-radius: 2px solid red;
+background-color: red;
+color: white;
+}
+button{
+    background-color: red;
+    border: none;
+
+}
+#love{
+    background-color: red;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="random.css">
+<script src="https://kit.fontawesome.com/f086d1d7c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    Love Calculator <i id="love" class="fa-solid fa-heart"></i><br>
+    <input type="text" placeholder="input male name" id = "male"> <br><br>
+    <input type="text" placeholder="input female name" id = "female"> <br><br>
+    <button onclick="ran()"><i class="fa-solid fa-heart"></i></button> <br>
+    <!-- <button onclick="domy()">Random</button> -->
+    <h1 id="random"></h1>
+    <h1 id="rand"></h1> 
+    <p id="check"></p>
+
+
+    <script>
+        function ran(){
+        //  dom =   (Math.random()*4)
+         var male = document.getElementById("male").value;
+         var female = document.getElementById("female").value;
+      var cal =  (Math.ceil((Math.random()*98)))
+      cal = cal + 1
+
+         document.getElementById("rand").innerHTML = male +" "+"LOVE"+ " " + female +" "+cal+"%";
+        //    (Math.ceil((Math.random()*100)))
+            // console.log(Math.random()*4)
+            if(cal <= 59 && cal >= 10){
+                document.getElementById("check").innerText = "Still not Good, Show more love and care"
+            }
+                
+            if(cal <= 80 && cal >= 60){
+                document.getElementById("check").innerText = "Still not BAD, you guys should keep it real"}
+                // else{
+                //     document.getElementById("check").innerText = "   "
+                // }
+            if(cal <= 90 && cal >= 81){
+                document.getElementById("check").innerText = "This is good, you guys should get married soon"
+
+            }
+            if(cal <= 99 && cal >= 91){
+
+                document.getElementById("check").innerText = "What are you guys still doing, You should marry your partner already"
+            }
+            }
+
+        
+        
+        
+    </script>
+</body>
+</html>
